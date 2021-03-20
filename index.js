@@ -142,7 +142,8 @@ class Tags extends React.Component {
 
     let tempObject = {
       tag: tags.tag,
-      tagsArray: tempArray
+      tagsArray: tempArray,
+      tagToDelete
     };
     updateState(tempObject)
   };
@@ -170,6 +171,7 @@ class Tags extends React.Component {
       deleteElement,
       deleteIconStyles,
       customElement,
+      inputVisible
     } = this.props;
 
     const props = this.props;
@@ -178,7 +180,7 @@ class Tags extends React.Component {
       {label ? this.renderLabel(label, StyleSheet.flatten([styles.labelStyle, labelStyle])) : null}
         <View style={StyleSheet.flatten(StyleSheet.flatten([styles.inputContainer, inputContainerStyle]))}>
           {leftElement ? this.renderLeftElement(leftElement, leftElementContainerStyle) : null}
-          <TextInput
+          {inputVisible &&<TextInput
             underlineColorAndroid="transparent"
             editable={!disabled}
             ref={ref => {
@@ -194,7 +196,7 @@ class Tags extends React.Component {
             value={tags.tag}
             onChangeText={text => this.onChangeText(text, tags, updateState, keysForTag, keysForTagsArray)}
             onEndEditing={() => this.onEndEditing(tags, updateState)}
-        />
+        />}
         {rightElement ? this.renderRightElement(rightElement, rightElementContainerStyle) : null}
       </View>
         {customElement ? customElement : null}
