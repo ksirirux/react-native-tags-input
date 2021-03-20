@@ -195,5 +195,6 @@ react-native-tags-input is [MIT](https://choosealicense.com/licenses/mit/) Licen
 
 
 ## Edit Some Function
-function updateState will return  {tag,tagArray,tagToDelete}  
+20/3/2021 
+Edit function updateState will return  {tag,tagArray,tagToDelete}  
 tagToDelete is index of tag that remove
