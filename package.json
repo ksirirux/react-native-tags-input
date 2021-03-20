@@ -1,6 +1,6 @@
 {
   "name": "react-native-tags-input-edit",
-  "version": "1.0.1",
+  "version": "1.0.1-e",
   "description": "Input component for React Native to add and remove tags.",
   "main": "index.js",
   "scripts": {

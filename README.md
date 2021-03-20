@@ -5,14 +5,9 @@ Fully customizable React Native input-component to add tags to an array. The tag
 
 <img src="https://raw.githubusercontent.com/jimmybengtsson/react-native-tags-input/master/githubImage/react-native-tags-input.gif"/>
 
-## Npm repo
-https://www.npmjs.com/package/react-native-tags-input
-
-## Git repo
-https://github.com/jimmybengtsson/react-native-tags-input
 
 ## Getting started
-`$ npm install react-native-tags-input --save`
+`$ npm install react-native-tags-input-edit --save`
 
 ## Props
 |    | necessary | types | about
@@ -192,6 +187,12 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## License
 react-native-tags-input is [MIT](https://choosealicense.com/licenses/mit/) License @ Jimmy Bengtsson
 
+#Reference 
+Npm repo
+https://www.npmjs.com/package/react-native-tags-input
+
+Git repo
+https://github.com/jimmybengtsson/react-native-tags-input
 
 
 ## Edit Some Function
