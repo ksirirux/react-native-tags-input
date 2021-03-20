@@ -1,4 +1,4 @@
-# react-native-tags-input
+# react-native-tags-input-edit(komkrit)
 
 
 Fully customizable React Native input-component to add tags to an array. The tags are displayed as chips that can be deleted.
