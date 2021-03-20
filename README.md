@@ -37,6 +37,7 @@ https://github.com/jimmybengtsson/react-native-tags-input
 |deleteElement| |element|If this is included, the delete icon will be replaced by the element provided. (Thanks to periabyte)|
 |deleteIconStyles| |styles|Styles for the delete icon|
 |customElement| |element|Element to be displayed between input and tags. For example suggestions. (Auto suggestions will be implemented in a future release)|
+|inputVisible |✓| boolean| Show/Hide TextInput Element|
 
 > This component also inherits
 > [all native TextInput props that come with a standard React Native TextInput element](https://facebook.github.io/react-native/docs/textinput.html).
@@ -190,3 +191,9 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 react-native-tags-input is [MIT](https://choosealicense.com/licenses/mit/) License @ Jimmy Bengtsson
+
+
+
+## Edit Some Function
+function updateState will return  {tag,tagArray,tagToDelete}  
+tagToDelete is index of tag that remove
