@@ -187,7 +187,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## License
 react-native-tags-input is [MIT](https://choosealicense.com/licenses/mit/) License @ Jimmy Bengtsson
 
-#Reference 
+## Project Reference 
 Npm repo
 https://www.npmjs.com/package/react-native-tags-input
 
